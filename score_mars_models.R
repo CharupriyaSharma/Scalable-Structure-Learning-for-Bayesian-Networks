@@ -25,11 +25,10 @@ score_model <- function(mars_model, response_var, predictor_vars, data, score_fi
   
   for (j in seq(1,2^length(predictor_vars))){
     pi_ij <- data.frame(Omega_Pi_i[j,])
-    print(pi_ij)
     theta_ij1 <- predict(mars_model, pi_ij, type="response")
     theta_ij0 <- 1 - theta_ij1
 
-    df_pi_ij <- match_df(data,pi_ij)
+    df_pi_ij <- match_df(data,pi_ij, on=names(pi_ij))
     n_ij <- nrow(df_pi_ij)
     n_ij1 <- length(which(df_pi_ij$response_var ==1))
     n_ij0 <- n_ij - n_ij1    
@@ -40,4 +39,10 @@ score_model <- function(mars_model, response_var, predictor_vars, data, score_fi
   
   #print score to file
   print_score(log_likelihood, penalty, predictor_vars, score_file)
-  }
+}
+
+#To Run
+#mars1 <- earth(X0 ~., glm=list(family=binomial), data=c)
+#s <- names(mars1$bx[1,])
+#s2<- unique(unlist(strsplit(s, "\\*.")))
+#score_model(mars1, X0, s2[-1], c, "test.tmp")
