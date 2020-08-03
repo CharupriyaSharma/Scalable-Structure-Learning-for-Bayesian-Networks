@@ -44,5 +44,5 @@ score_model <- function(mars_model, response_var, predictor_vars, data, score_fi
 #To Run
 #mars1 <- earth(X0 ~., glm=list(family=binomial), data=c)
 #s <- names(mars1$bx[1,])
-#s2<- unique(unlist(strsplit(s, "\\*.")))
+#s2<- unique(unlist(strsplit(s, "\\*")))
 #score_model(mars1, X0, s2[-1], c, "test.tmp")
