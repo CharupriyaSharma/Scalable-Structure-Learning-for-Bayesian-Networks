@@ -1,3 +1,6 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+
 rm(list=ls())
 library(bnlearn)
 
@@ -29,10 +32,10 @@ genSample <- function(sizes, rep, name, networkame) {
 }
 
 
-sizes <- c(20, 500, 1000, 2000, 5000)
+sizes <- c(20, 100, 200, 500, 1000, 2000, 5000)
 rep = 1
-name ="survey"
-networkame = "survey.bif"
+name = "ecoli70" #change dataname here"
+networkame = paste(name, ".rda", sep="")
 
 if (!dir.exists(paste0("./",name))) {
   dir.create(paste0("./",name))

@@ -4,7 +4,7 @@ args = commandArgs(trailingOnly=TRUE)
 library(plyr)
 library(dequer)
 library(hash)
-library(earth)
+library(earth, "~/Documents/earth-src")
 library(mda)
 
 compute_penalty_bic <- function(free_parameters, data_size){
@@ -100,6 +100,7 @@ create_key <- function(parentSet) {
 
 # 1) Load the CSV with the observations
 c <- read.csv(args[1], header=FALSE)
+
 solution_file = paste(c(args[2], "_"), collapse = "")
 #for ( i in seq(1,ncol(c))){
 {

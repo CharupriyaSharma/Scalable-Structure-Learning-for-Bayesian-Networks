@@ -7,6 +7,7 @@ library(hash)
 library(earth)
 library(mda)
 library(Binarize)
+library(bnlearn)
 
 compute_penalty_bic <- function(free_parameters, data_size){
   # print("free_parameters")

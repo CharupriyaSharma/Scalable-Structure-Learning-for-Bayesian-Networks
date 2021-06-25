@@ -102,7 +102,7 @@ while (length(q) > 0) {
   # 5.2) If we have not seen this parent set before...
   if (!has.key(key, finished)) {
     # 5.2.1) Score it
-    response_var_id = 1  
+    response_var_id = i 
     response_var_name = names(c)[response_var_id]
     predictor = paste(parentSet, collapse = " + ")
     f <- as.formula(paste(c(response_var_name, "~", predictor), collapse=" "))

@@ -5,11 +5,14 @@ library(dplyr)
 library(bnlearn)
 
 bn <- read.bif(args[1])
+print("bif read")
 dat <- read.csv(args[2])
 dat <- dat[-c(1), ]
 csvrows = nrow(dat)
 local_vals <- data.frame(matrix(ncol = ncol(dat), nrow = csvrows))
 colnames(local_vals) <- names(bn)
+
+print("data loaded")
 j=0
 for (node in bn)
 {
