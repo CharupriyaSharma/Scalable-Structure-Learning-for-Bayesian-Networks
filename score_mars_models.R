@@ -72,7 +72,7 @@ score_null <- function(response_var_id, data, score_file){
   theta_ij0 <- 1 - theta_ij1
 
   log_likelihood =   n_ij0*log10(theta_ij0) + n_ij1*log(theta_ij1)
-  log_likelihood =  log_likelihood + n_ij0*log10(theta_ij0)
+  log_likelihood =  log_likelihood + n_ij0*log(theta_ij0)
   
   print_score_null(log_likelihood, score_file)
 }

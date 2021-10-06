@@ -1,0 +1,5016 @@
+network unknown {
+}
+variable v0 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v1 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v2 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v3 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v4 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v5 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v6 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v7 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v8 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v9 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v10 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v11 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v12 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v13 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v14 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v15 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v16 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v17 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v18 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v19 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v20 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v21 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v22 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v23 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v24 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v25 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v26 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v27 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v28 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v29 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v30 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v31 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v32 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v33 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v34 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v35 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v36 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v37 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v38 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v39 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v40 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v41 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v42 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v43 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v44 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v45 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v46 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v47 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v48 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v49 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v50 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v51 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v52 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v53 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v54 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v55 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v56 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v57 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v58 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v59 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v60 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v61 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v62 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v63 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v64 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v65 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v66 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v67 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v68 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v69 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v70 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v71 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v72 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v73 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v74 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v75 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v76 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v77 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v78 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v79 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v80 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v81 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v82 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v83 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v84 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v85 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v86 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v87 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v88 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v89 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v90 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v91 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v92 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v93 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v94 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v95 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v96 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v97 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v98 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v99 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v100 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v101 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v102 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v103 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v104 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v105 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v106 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v107 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v108 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v109 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v110 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v111 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v112 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v113 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v114 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v115 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v116 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v117 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v118 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v119 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v120 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v121 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v122 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v123 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v124 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v125 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v126 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v127 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v128 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v129 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v130 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v131 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v132 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v133 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v134 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v135 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v136 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v137 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v138 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v139 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v140 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v141 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v142 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v143 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v144 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v145 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v146 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v147 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v148 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v149 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v150 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v151 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v152 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v153 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v154 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v155 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v156 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v157 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v158 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v159 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v160 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v161 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v162 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v163 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v164 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v165 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v166 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v167 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v168 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v169 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v170 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v171 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v172 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v173 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v174 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v175 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v176 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v177 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v178 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v179 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v180 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v181 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v182 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v183 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v184 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v185 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v186 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v187 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v188 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v189 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v190 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v191 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v192 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v193 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v194 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v195 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v196 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v197 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v198 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v199 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v200 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v201 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v202 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v203 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v204 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v205 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v206 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v207 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v208 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v209 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v210 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v211 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v212 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v213 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v214 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v215 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v216 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v217 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v218 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v219 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v220 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v221 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v222 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v223 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v224 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v225 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v226 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v227 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v228 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v229 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v230 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v231 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v232 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v233 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v234 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v235 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v236 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v237 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v238 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v239 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v240 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v241 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v242 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v243 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v244 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v245 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v246 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v247 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v248 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v249 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v250 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v251 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v252 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v253 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v254 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v255 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v256 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v257 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v258 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v259 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v260 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v261 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v262 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v263 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v264 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v265 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v266 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v267 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v268 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v269 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v270 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v271 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v272 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v273 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v274 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v275 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v276 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v277 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v278 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v279 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v280 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v281 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v282 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v283 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v284 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v285 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v286 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v287 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v288 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v289 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v290 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v291 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v292 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v293 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v294 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v295 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v296 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v297 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v298 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v299 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v300 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v301 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v302 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v303 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v304 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v305 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v306 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v307 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v308 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v309 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v310 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v311 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v312 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v313 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v314 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v315 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v316 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v317 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v318 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v319 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v320 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v321 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v322 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v323 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v324 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v325 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v326 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v327 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v328 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v329 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v330 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v331 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v332 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v333 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v334 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v335 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v336 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v337 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v338 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v339 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v340 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v341 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v342 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v343 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v344 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v345 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v346 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v347 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v348 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v349 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v350 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v351 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v352 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v353 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v354 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v355 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v356 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v357 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v358 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v359 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v360 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v361 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v362 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v363 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v364 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v365 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v366 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v367 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v368 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v369 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v370 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v371 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v372 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v373 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v374 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v375 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v376 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v377 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v378 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v379 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v380 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v381 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v382 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v383 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v384 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v385 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v386 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v387 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v388 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v389 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v390 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v391 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v392 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v393 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v394 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v395 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v396 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v397 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v398 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v399 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v400 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v401 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v402 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v403 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v404 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v405 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v406 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v407 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v408 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v409 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v410 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v411 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v412 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v413 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v414 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v415 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v416 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v417 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v418 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v419 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v420 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v421 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v422 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v423 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v424 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v425 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v426 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v427 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v428 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v429 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v430 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v431 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v432 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v433 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v434 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v435 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v436 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v437 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v438 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v439 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+variable v440 {
+  type discrete [ 3 ] { 0, 1, 2 };
+}
+probability ( v0 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v1 | v440, v0 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v2 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v3 | v439, v2 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v4 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v5 | v439, v4 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v6 | v12, v9 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v7 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v8 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v9 | v8, v7 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v10 | v12, v9 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v11 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v12 | v434, v11 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v13 | v16, v19 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v14 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v15 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v16 | v15, v14 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v17 | v16, v19 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v18 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v19 | v434, v18 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v20 | v24, v22 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v21 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v22 | v434, v21 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v23 | v24, v22 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v24 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v25 | v24, v27 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v26 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v27 | v434, v26 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v28 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v29 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v30 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v31 | v427, v30 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v32 | v35, v33 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v33 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v34 | v35, v33 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v35 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v36 | v35, v38 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v37 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v38 | v426, v37 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v39 | v410, v413 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v40 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v41 | v426, v40 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v42 | v410, v41 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v43 | v48, v45 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v44 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v45 | v434, v44 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v46 | v48, v45 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v47 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v48 | v50, v47 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v49 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v50 | v406, v49 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v51 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v52 | v51, v395 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v53 | v56, v61 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v54 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v55 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v56 | v55, v54 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v57 | v56, v61 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v58 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v59 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v60 | v59, v58 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v61 | v434, v60 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v62 | v385, v61 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v63 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v64 | v63, v65 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v65 | v434, v425 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v66 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v67 | v71, v66 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v68 | v71, v69 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v69 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v70 | v71, v69 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v71 | v426, v380 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v72 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v73 | v379, v72 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v74 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v75 | v379, v74 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v76 | v426, v378 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v77 | v410, v78 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v78 | v426, v378 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v79 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v80 | v426, v79 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v81 | v366, v80 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v82 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v83 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v84 | v83, v82 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v85 | v366, v84 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v86 | v366, v87 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v87 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v88 | v366, v87 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v89 | v366, v92 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v90 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v91 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v92 | v91, v90 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v93 | v366, v92 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v94 | v366, v359 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v95 | v366, v359 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v96 | v352, v97 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v97 | v427, v99 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v98 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v99 | v98, v101 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v100 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v101 | v358, v100 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v102 | v434, v101 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v103 | v352, v102 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v104 | v351, v106 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v105 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v106 | v434, v105 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v107 | v351, v106 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v108 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v109 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v110 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v111 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v112 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v113 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v114 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v115 | v114, v113 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v116 | v351, v115 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v117 | v126, v151 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v118 | v434, v125 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v119 | v126, v120 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v120 | v158, v121 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v121 | v434, v125 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v122 | v434, v125 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v123 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v124 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v125 | v124, v123 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v126 | v434, v125 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v127 | v126, v151 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v128 | v351, v129 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v129 | v434, v132 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v130 | v351, v350 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v131 | v351, v350 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v132 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v133 | v434, v132 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v134 | v351, v133 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v135 | v148, v134 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v136 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v137 | v136, v380 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v138 | v147, v137 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v139 | v427, v145 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v140 | v427, v145 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v141 | v409, v143 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v142 | v409, v143 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v143 | v144, v146 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v144 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v145 | v144, v146 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v146 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v147 | v426, v146 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v148 | v147, v150 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v149 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v150 | v434, v149 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v151 | v158, v150 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v152 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v153 | v152, v155 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v154 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v155 | v154, v156 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v156 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v157 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v158 | v379, v156 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v159 | v158, v157 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v160 | v351, v159 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v161 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v162 | v165, v164 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v163 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v164 | v434, v161 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v165 | v426, v163 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v166 | v165, v164 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v167 | v166, v171 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v168 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v169 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v170 | v169, v168 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v171 | v349, v170 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v172 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v173 | v349, v172 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v174 | v253, v179 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v175 | v253, v176 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v176 | v178, v177 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v177 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v178 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v179 | v178, v177 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v180 | v253, v179 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v181 | v374, v245 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v182 | v374, v245 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v183 | v366, v186 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v184 | v366, v186 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v185 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v186 | v197, v185 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v187 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v188 | v426, v187 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v189 | v194, v188 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v190 | v410, v192 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v191 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v192 | v194, v191 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v193 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v194 | v196, v193 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v195 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v196 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v197 | v196, v195 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v198 | v197, v204 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v199 | v426, v380 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v200 | v201, v199 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v201 | v434, v204 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v202 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v203 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v204 | v203, v202 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v205 | v434, v204 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v206 | v213, v205 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v207 | v213, v215 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v208 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v209 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v210 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v211 | v434, v208 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v212 | v210, v209 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v213 | v212, v211 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v214 | v213, v215 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v215 | v374, v245 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v216 | v218, v217 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v217 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v218 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v219 | v218, v217 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v220 | v221, v219 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v221 | v434, v348 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v222 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v223 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v224 | v349, v348 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v225 | v224, v228 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v226 | v229, v293 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v227 | v229, v293 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v228 | v292, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v229 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v230 | v229, v228 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v231 | v232, v230 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v232 | v239, v241 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v233 | v239, v241 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v234 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v235 | v236, v234 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v236 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v237 | v236, v438 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v238 | v239, v237 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v239 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v240 | v239, v241 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v241 | v247, v246 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v242 | v434, v373 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v243 | v242, v244 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v244 | v247, v246 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v245 | v247, v246 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v246 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v247 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v248 | v247, v246 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v249 | v250, v248 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v250 | v349, v251 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v251 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v252 | v349, v251 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v253 | v255, v252 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v254 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v255 | v263, v254 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v256 | v257, v259 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v257 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v258 | v257, v259 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v259 | v427, v261 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v260 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v261 | v263, v260 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v262 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v263 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v264 | v263, v262 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v265 | v266, v264 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v266 | v272, v271 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v267 | v272, v271 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v268 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v269 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v270 | v272, v271 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v271 | v269, v268 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v272 | v292, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v273 | v272, v271 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v274 | v277, v273 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v275 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v276 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v277 | v276, v275 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v278 | v277, v279 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v279 | v292, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v280 | v292, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v281 | v286, v289 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v282 | v385, v284 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v283 | v385, v284 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v284 | v434, v285 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v285 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v286 | v434, v285 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v287 | v286, v289 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v288 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v289 | v292, v288 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v290 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v291 | v292, v290 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v292 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v293 | v292, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v294 | v313, v316 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v295 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v296 | v434, v295 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v297 | v296, v299 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v298 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v299 | v313, v298 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v300 | v313, v305 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v301 | v302, v435 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v302 | v304, v303 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v303 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v304 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v305 | v304, v303 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v306 | v313, v305 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v307 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v308 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v309 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v310 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v311 | v308, v307 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v312 | v310, v309 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v313 | v312, v311 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v314 | v313, v316 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v315 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v316 | v315, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v317 | v345, v343 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v318 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v319 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v320 | v342, v323 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v321 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v322 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v323 | v322, v321 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v324 | v342, v323 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v325 | v331, v326 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v326 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v327 | v331, v326 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v328 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v329 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v330 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v331 | v329, v328 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v332 | v331, v330 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v333 | v334, v332 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v334 | v434, v340 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v335 | v349, v337 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v336 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v337 | v336, v338 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v338 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v339 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v340 | v339, v338 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v341 | v319, v318 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v342 | v434, v340 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v343 | v342, v341 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v344 | v345, v343 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v345 | v427, v346 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v346 | v433, v347 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v347 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v348 | v223, v222 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v349 | v433, v347 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v350 | v434, v132 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v351 | v349, v348 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v352 | v351, v350 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v353 | v352, v354 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v354 | v434, v356 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v355 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v356 | v358, v355 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v357 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v358 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v359 | v358, v357 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v360 | v366, v359 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v361 | v366, v364 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v362 | v366, v364 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v363 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v364 | v426, v363 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v365 | v366, v364 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v366 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v367 | v366, v368 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v368 | v426, v369 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v369 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v370 | v426, v369 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v371 | v372, v370 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v372 | v434, v373 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v373 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v374 | v434, v373 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v375 | v374, v376 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v376 | v426, v378 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v377 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v378 | v379, v377 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v379 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v380 | v379, v381 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v381 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v382 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v383 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v384 | v383, v382 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v385 | v393, v384 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v386 | v427, v388 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v387 | v427, v388 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v388 | v433, v391 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v389 | v434, v391 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v390 | v434, v391 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v391 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v392 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v393 | v433, v391 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v394 | v393, v392 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v395 | v404, v394 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v396 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v397 | v439, v396 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v398 | v399, v397 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v399 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v400 | v399, v437 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v401 | v400, v402 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v402 | v434, v403 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v403 | v406, v405 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v404 | v406, v405 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v405 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v406 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v407 | v406, v405 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v408 | v426, v146 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v409 | v434, v407 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v410 | v409, v408 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v411 | v410, v413 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v412 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v413 | v426, v412 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v414 | v424, v416 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v415 | v424, v416 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v416 | v434, v417 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v417 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v418 | v434, v417 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v419 | v424, v418 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v420 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v421 | v434, v420 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v422 | v424, v421 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v423 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v424 | v426, v423 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v425 | v383, v381 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v426 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v427 | v426, v425 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v428 | v427, v431 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v429 | v433, v430 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v430 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v431 | v433, v430 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v432 | v29, v28 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v433 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v434 | v433, v432 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v435 | v434, v436 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v436 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v437 | v439, v436 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}
+probability ( v438 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v439 ) {
+  table 0.25, 0.50, 0.25;
+}
+probability ( v440 | v439, v438 ) {
+  (0, 0) 1.0, 0.0, 0.0;
+  (1, 0) 0.5, 0.5, 0.0;
+  (2, 0) 0.0, 1.0, 0.0;
+  (0, 1) 0.5, 0.5, 0.0;
+  (1, 1) 0.25, 0.50, 0.25;
+  (2, 1) 0.0, 0.5, 0.5;
+  (0, 2) 0.0, 1.0, 0.0;
+  (1, 2) 0.0, 0.5, 0.5;
+  (2, 2) 0.0, 0.0, 1.0;
+}

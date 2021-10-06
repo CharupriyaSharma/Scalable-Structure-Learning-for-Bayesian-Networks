@@ -209,6 +209,9 @@ write.csv(c, outfile,row.names = FALSE, col.names = TRUE)
   fda1 <- fda(f_base, degree = 10, keep.fitted=TRUE, method=earth, pmethod="none", keepxy=TRUE, data=c)
   fda2 <- fda(f_base, keep.fitted=TRUE, method=earth, pmethod="none", keepxy=TRUE, data=c)
   if(length(coef(fda1)[,1]) + length(coef(fda2)[,1]) == 2) next
+  
+
+    
   # 3) Obtain all variable names used by the two MARS models
   s <- names(coef(fda1)[,1])
   t <- names(coef(fda2)[,1])
@@ -253,6 +256,7 @@ write.csv(c, outfile,row.names = FALSE, col.names = TRUE)
         s2 <- unique(unlist(strsplit(s, "\\*")))
         s3 <- unique(unlist(strsplit(s2, "[()-]")))
         s4 <- grep("V", s3, value=TRUE)
+        
         domains2 = list()
         for (i in s4) 
         {

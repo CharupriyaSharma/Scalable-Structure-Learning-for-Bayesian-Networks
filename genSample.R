@@ -20,7 +20,7 @@ genSample <- function(sizes, rep, name, networkame) {
       # )
       write.table(
         samp,
-        file = paste0("./",name,"/", n, ".", i, ".csv"),
+        file = paste0(name, "/", name,"_", n, ".csv"),
         row.names = FALSE,
         col.names = TRUE,
         append = TRUE,
@@ -32,10 +32,10 @@ genSample <- function(sizes, rep, name, networkame) {
 }
 
 
-sizes <- c(20, 100, 200, 500, 1000, 2000, 5000)
+sizes <- c(20, 100, 200, 500, 1000, 2000, 5000, 10000)
 rep = 1
-name = "ecoli70" #change dataname here"
-networkame = paste(name, ".rda", sep="")
+name = "andes" #change dataname here"
+networkame = paste(name, ".bif", sep="")
 
 if (!dir.exists(paste0("./",name))) {
   dir.create(paste0("./",name))

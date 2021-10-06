@@ -20,6 +20,7 @@ compute_penalty_bic <- function(free_parameters, data_size){
 }
 
 print_score <- function(log_likelihood, penalty, cKL, max, predictor_vars, score_file, metrics_file, fda_model){
+  print("print_score")
   tmp <- unique(unlist(strsplit(predictor_vars, "V")))
   parents = tmp[tmp!=""]
   print("parents")
@@ -76,14 +77,16 @@ score_model <- function(fda_model, response_var_id, predictor_vars, Omega_Pi_i, 
     Omega_Pi_i_padded[predictor_vars[a]] = Omega_Pi_i[predictor_vars[a]]
   }
   ckl =0
-  #print(Omega_Pi_i_padded)
+  print(Omega_Pi_i_padded)
   for (j in seq(1,nrow(Omega_Pi_i))){
     #for (j in seq(1,2)){
     pi_ij <- data.frame(Omega_Pi_i_padded[j,])
    
-    #print(pi_ij)
-    theta_ij <- predict(fda_model, pi_ij, type="posterior")
-    #print(theta_ij)
+    print("pi_ij")
+    print((pi_ij))
+    print(coef(fda_model))
+    theta_ij <- predict(fda_model, newdata=pi_ij, type="posterior")
+    print(theta_ij)
     #print(Omega_Pi_i)
     pi_ij_t <- data.frame(Omega_Pi_i[j,])
     names(pi_ij_t) <- predictor_vars
@@ -110,14 +113,14 @@ score_model <- function(fda_model, response_var_id, predictor_vars, Omega_Pi_i, 
       cpt_ijk= n_ijk/n_ij
       if(n_ij==0 || n_ijk==0)
         cpt_ijk=1
-      tempkl = tempkl +  cpt_ijk*log(cpt_ijk/theta_ij[k+1])
+      tempkl = tempkl +  cpt_ijk*log(cpt_ijk/theta_ij[k])
       if(is.na(tempkl)){
         print("nijk=")
         print(n_ijk)
         print("nij=")
         print(n_ij)
       }
-      log_likelihood =  log_likelihood + n_ijk*log(theta_ij[k+1])
+      log_likelihood =  log_likelihood + n_ijk*log(theta_ij[k])
       
       # print(" adding  to current log-likelihood")
       # print(n_ijk*log(theta_ij[k+1]))
@@ -190,7 +193,7 @@ if(nrow(unique(c[response_var_id])) == 1)
   for (i in seq(1,ncol(c))) 
     domains[[i]] = unique(c[,i])
   #score_null(domains, response_var_id, c, output_file)
-  #print("unary variable")
+  print("unary variable")
   quit()
   #score null here
 }
@@ -216,10 +219,10 @@ for (i in seq(1,ncol(c)))
   #print(c[,i])
 }
  
-
+print("processed")
 names(domains) = names(c)
-write.csv(c, output_file,row.names = FALSE)
-write.csv(c, output_file2,row.names = FALSE)
+#write.csv(c, output_file,row.names = FALSE)
+#write.csv(c, output_file2,row.names = FALSE)
 #for ( i in seq(1,ncol(c))){
 {
   
@@ -248,8 +251,8 @@ write.csv(c, output_file2,row.names = FALSE)
   s6 = s6[s6!="Intercept"]
   s6 = sprintf("start_%s_end", s6)
   allParentCandidates <- s6
-  print("s6")
-  print(s6)
+  #print("s6")
+  #print(s6)
   # 4) Create a queue of potential parent sets and initialize it with the set from 3)
   q <- queue()
   # If the 4th argument is 0, we start with the set containing all parent candidates, otherwise with all singleton parent sets
@@ -261,6 +264,7 @@ write.csv(c, output_file2,row.names = FALSE)
     }
   }
   finished <- hash()
+  print(q)
   # 5) While the queue is not empty...
   while (length(q) > 0) {
     # 5.1) Extract the first argument, and create a string hash key from it
@@ -275,22 +279,37 @@ write.csv(c, output_file2,row.names = FALSE)
       predictor = paste(parentSet, collapse = " + ")
       f <- as.formula(paste(c(response_var_name, "~", predictor), collapse=" "))
       #print("Calling FDA")
-      print(f)
+      #print(f)
       fda3 <- fda(f, degree = 10, keep.fitted=TRUE, method=earth, keepxy=TRUE , data=c)
-      print(fda3)
-      print("Done calling FDA")
+      
+      #print("Done calling FDA")
       if(fda3$dimension > 1) {
         # 5.2.2) Extract the terms used by it
         print("FDA")
         print(f)
-        #print(coef(fda3))
+        print(fda3)
+        print(fda3$fit)
+        # if (fda3$fit$gcv == 0)
+        # {
+        #   print(coef(fda3))
+        # }
+        
         s <- names(coef(fda3)[,1])
-        print(s)
+        #print(s)
         s2 <- unique(unlist(strsplit(s, "\\*")))
         s3 <- unique(unlist(strsplit(s2, "[()-]")))
-        s4 <- grep("V", s3, value=TRUE)
+       
+        #s4 <- grep("V", s3, value=TRUE)
+        s4 <- unique(unlist(strsplit(s3, "\\_end")))
+        s5 = s4[ grepl('^start_', s4)]
+        s6 <- unique(unlist(strsplit(s5, "start\\_")))
+        s6 = s6[s6!=""]
+        s6 = s6[s6!="Intercept"]
+        s6 = sprintf("start_%s_end", s6)
+        #print("s6")
+        #print(s6)
         domains2 = list()
-        for (i in s4) 
+        for (i in s6) 
         {
           domains2[[i]] = domains[[i]]
         }
@@ -302,7 +321,7 @@ write.csv(c, output_file2,row.names = FALSE)
             finished[sKey] = 1
             r_i = length(unique(c[response_var_id]))
             r_Pi_i=0
-            score_model(fda3, response_var_id, s4, Omega_Pi, c, domains,output_file, output_file2)
+            #score_model(fda3, response_var_id, s6, Omega_Pi, c, domains,output_file, output_file2)
           }
         }
       }

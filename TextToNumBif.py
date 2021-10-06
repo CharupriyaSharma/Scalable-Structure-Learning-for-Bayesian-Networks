@@ -1,8 +1,5 @@
 import sys
 
-#sys.argv[1] = "C://Users/gross/Downloads/Telegram Desktop/insurance.bif"
-#sys.argv[2] = "C://Users/gross/Downloads/Telegram Desktop/insuranceNew.bif"
-
 biffile = open(sys.argv[1] , "r")
 outputfile = open(sys.argv[2], "w")
 linenumber = 0
