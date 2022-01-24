@@ -1,7 +1,8 @@
 import sys
+import os
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.ensemble import ExtraTreesClassifier, RandomForestClassifier, RandomForestRegressor
 
@@ -50,8 +51,8 @@ def readBif(biffile, fmap):
 
 names = [#"Nearest Neighbors",
          #"Linear SVM", "RBF SVM", "Gaussian Process",
-         "DecisionTree",
-         "RandomForestClassifier",
+         "DecisionTreeRegressor",
+         #"RandomForestClassifier",
          "RandomForestRegressor",
          #"Neural Net", "AdaBoost",
          #"Naive Bayes", "QDA"
@@ -62,8 +63,8 @@ methods = [
     #SVC(kernel="linear", C=0.025),
     #SVC(gamma=2, C=1),
     #GaussianProcessClassifier(1.0 * RBF(1.0)),
-    DecisionTreeClassifier(max_depth=5),
-    RandomForestClassifier(criterion="entropy"),
+    DecisionTreeRegressor(),
+    #RandomForestClassifier(criterion="entropy"),
     RandomForestRegressor(),
 
     #MLPClassifier(alpha=1, max_iter=1000),
@@ -72,33 +73,42 @@ methods = [
     #QuadraticDiscriminantAnalysis()
     ]
 
-data = np.genfromtxt(sys.argv[2], delimiter=',',skip_header=2)
+#add number of lines to skip from top in skip_header
+data = np.genfromtxt(sys.argv[1], delimiter=',',skip_header=0)
 data = np.delete(data, (0), axis=0)
 nrow = np.shape(data)[0]
 ncol = np.shape(data)[1]
-nfeatures = int(sys.argv[3])
-prefix = (sys.argv[4])
+nfeatures = ncol-1
+prefix = os.path.splitext(sys.argv[1])[0]
 
 
 for name, clf in zip(names, methods):
-    print(name)
-    w = open(prefix +"_"+  name, "w")
+    print("Executing "+ name)
+    ffile = prefix +"_"+  name
+    sfile = ffile + "_score" 
+    print("writing all features to file  : " + ffile)
+    print("writing all feature scores to file  : " + sfile)
+    w = open(ffile, "w")
+    w2 = open(sfile, "w")
+
     features={}
     for c in range(0,ncol):
         y = data[:,c]
         X = np.delete(data, c, axis=1)
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
- #       ax = plt.subplot(len(datasets), len(methods) + 1, i)
         clf.fit(X_train, y_train)
         score = clf.score(X_test, y_test)
-        feat = np.argsort(-1*clf.feature_importances_)[:nfeatures]
-        feat = [f+1 if f>c else f for f in feat]
+        feat = np.argsort(-1*clf.feature_importances_)
+        sorted_scores = np.sort(-1*clf.feature_importances_)
+        feat = [f+1 if f>=c else f for f in feat]
         features[c]=feat
         w.writelines(', '.join(str(e) for e in feat) + "\n")
-    readBif(sys.argv[1],features)
-    w.close()
+        w2.writelines(', '.join(str(-1*e) for e in sorted_scores) + "\n")
 
-        #print(f)
+    #readBif(sys.argv[1],features)
+    w.close()
+    w2.close()
+
 
         
         

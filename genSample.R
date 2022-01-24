@@ -10,21 +10,21 @@ genSample <- function(sizes, rep, name, networkame) {
   for (n in sizes) {
     for (i in 1:1) {
       samp = rbn(net, n)
-      # write.table(
-      #   t(sapply(samp, nlevels)),
-      #   file = paste0("./",name,"/", n, ".", i, ".csv"),
-      #   row.names = FALSE,
-      #   col.names = TRUE,
-      #   sep = ',',
-      #   quote = FALSE
-      # )
+      write.table(
+        t(sapply(samp, nlevels)),
+        file = paste0("./",name,"/", n, ".", i, ".csv"),
+        row.names = FALSE,
+        col.names = TRUE,
+        sep = ' ',
+        quote = FALSE
+      )
       write.table(
         samp,
         file = paste0(name, "/", name,"_", n, ".csv"),
         row.names = FALSE,
         col.names = TRUE,
         append = TRUE,
-        sep = ',',
+        sep = ' ',
         quote = FALSE
       )
     }
@@ -32,9 +32,9 @@ genSample <- function(sizes, rep, name, networkame) {
 }
 
 
-sizes <- c(20, 100, 200, 500, 1000, 2000, 5000, 10000)
+sizes <- c(3)
 rep = 1
-name = "andes" #change dataname here"
+name = "munin4" #change dataname here"
 networkame = paste(name, ".bif", sep="")
 
 if (!dir.exists(paste0("./",name))) {

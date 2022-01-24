@@ -1,0 +1,371 @@
+
+  Bayesian network parameters
+
+  Parameters of node aceB (Gaussian distribution)
+
+Conditional density: aceB | icdA
+Coefficients:
+(Intercept)         icdA  
+  0.1324257    1.0463576  
+Standard deviation of the residuals: 0.2921168 
+
+  Parameters of node asnA (Gaussian distribution)
+
+Conditional density: asnA | ygcE
+Coefficients:
+(Intercept)         ygcE  
+  0.3494150    0.7974541  
+Standard deviation of the residuals: 0.3022864 
+
+  Parameters of node atpD (Gaussian distribution)
+
+Conditional density: atpD | sucA + ygcE
+Coefficients:
+(Intercept)         sucA         ygcE  
+-0.04025017   0.26029355  -0.72522014  
+Standard deviation of the residuals: 0.6427111 
+
+  Parameters of node atpG (Gaussian distribution)
+
+Conditional density: atpG | sucA
+Coefficients:
+(Intercept)         sucA  
+ -0.8907914    0.6179975  
+Standard deviation of the residuals: 0.6279111 
+
+  Parameters of node b1191 (Gaussian distribution)
+
+Conditional density: b1191
+Coefficients:
+(Intercept)  
+   1.272989  
+Standard deviation of the residuals: 0.7801026 
+
+  Parameters of node b1583 (Gaussian distribution)
+
+Conditional density: b1583 | lacA + lacZ + yceP
+Coefficients:
+(Intercept)         lacA         lacZ         yceP  
+  1.3819549   -0.2456687    0.3421805    0.2407019  
+Standard deviation of the residuals: 1.052861 
+
+  Parameters of node b1963 (Gaussian distribution)
+
+Conditional density: b1963 | yheI
+Coefficients:
+(Intercept)         yheI  
+  0.9649125    1.0375753  
+Standard deviation of the residuals: 0.6138791 
+
+  Parameters of node cchB (Gaussian distribution)
+
+Conditional density: cchB | fixC
+Coefficients:
+(Intercept)         fixC  
+  1.0695227    0.6179876  
+Standard deviation of the residuals: 0.8003899 
+
+  Parameters of node cspA (Gaussian distribution)
+
+Conditional density: cspA | cspG
+Coefficients:
+(Intercept)         cspG  
+ -0.4264853    0.2887115  
+Standard deviation of the residuals: 1.239623 
+
+  Parameters of node cspG (Gaussian distribution)
+
+Conditional density: cspG
+Coefficients:
+(Intercept)  
+   2.026078  
+Standard deviation of the residuals: 1.037081 
+
+  Parameters of node dnaG (Gaussian distribution)
+
+Conditional density: dnaG | ycgX + yheI
+Coefficients:
+(Intercept)         ycgX         yheI  
+  0.1170132    0.5992179    0.1954802  
+Standard deviation of the residuals: 0.3608203 
+
+  Parameters of node dnaJ (Gaussian distribution)
+
+Conditional density: dnaJ | sucA
+Coefficients:
+(Intercept)         sucA  
+  0.1209770   -0.8084874  
+Standard deviation of the residuals: 0.7585577 
+
+  Parameters of node dnaK (Gaussian distribution)
+
+Conditional density: dnaK | yheI
+Coefficients:
+(Intercept)         yheI  
+ -0.2469326    1.0797222  
+Standard deviation of the residuals: 0.5392409 
+
+  Parameters of node eutG (Gaussian distribution)
+
+Conditional density: eutG
+Coefficients:
+(Intercept)  
+     1.2654  
+Standard deviation of the residuals: 0.8313535 
+
+  Parameters of node fixC (Gaussian distribution)
+
+Conditional density: fixC | b1191
+Coefficients:
+(Intercept)        b1191  
+  0.3164756    0.9406052  
+Standard deviation of the residuals: 1.063448 
+
+  Parameters of node flgD (Gaussian distribution)
+
+Conditional density: flgD | sucA
+Coefficients:
+(Intercept)         sucA  
+ -0.5166705    0.6361945  
+Standard deviation of the residuals: 0.6268255 
+
+  Parameters of node folK (Gaussian distribution)
+
+Conditional density: folK | yheI
+Coefficients:
+(Intercept)         yheI  
+  0.5640817    0.8180528  
+Standard deviation of the residuals: 0.3666615 
+
+  Parameters of node ftsJ (Gaussian distribution)
+
+Conditional density: ftsJ | mopB
+Coefficients:
+(Intercept)         mopB  
+  0.6737551    0.9241186  
+Standard deviation of the residuals: 0.3954749 
+
+  Parameters of node gltA (Gaussian distribution)
+
+Conditional density: gltA | sucA
+Coefficients:
+(Intercept)         sucA  
+ -0.9572130    0.3789963  
+Standard deviation of the residuals: 0.8303468 
+
+  Parameters of node hupB (Gaussian distribution)
+
+Conditional density: hupB | cspA + yfiA
+Coefficients:
+(Intercept)         cspA         yfiA  
+ -0.1820572   -0.2984208    1.3866871  
+Standard deviation of the residuals: 0.3403716 
+
+  Parameters of node ibpB (Gaussian distribution)
+
+Conditional density: ibpB | eutG + yceP
+Coefficients:
+(Intercept)         eutG         yceP  
+ -0.4226813    1.4471465    0.1249285  
+Standard deviation of the residuals: 0.678909 
+
+  Parameters of node icdA (Gaussian distribution)
+
+Conditional density: icdA | asnA + ygcE
+Coefficients:
+(Intercept)         asnA         ygcE  
+ -0.4154791    0.5228393   -1.0584814  
+Standard deviation of the residuals: 0.5638465 
+
+  Parameters of node lacA (Gaussian distribution)
+
+Conditional density: lacA | asnA + cspG
+Coefficients:
+(Intercept)         asnA         cspG  
+  0.4468699    0.2723904    0.2539059  
+Standard deviation of the residuals: 1.699123 
+
+  Parameters of node lacY (Gaussian distribution)
+
+Conditional density: lacY | asnA + cspG + eutG + lacA
+Coefficients:
+(Intercept)         asnA         cspG         eutG         lacA  
+ -0.1148751   -0.2039735   -0.2240817    0.3536548    1.0462075  
+Standard deviation of the residuals: 0.2453465 
+
+  Parameters of node lacZ (Gaussian distribution)
+
+Conditional density: lacZ | asnA + lacA + lacY
+Coefficients:
+(Intercept)         asnA         lacA         lacY  
+ 0.19996029  -0.01611601   1.36838439  -0.43756791  
+Standard deviation of the residuals: 0.5838168 
+
+  Parameters of node lpdA (Gaussian distribution)
+
+Conditional density: lpdA | yedE
+Coefficients:
+(Intercept)         yedE  
+ -0.1007488    0.9609477  
+Standard deviation of the residuals: 0.3740323 
+
+  Parameters of node mopB (Gaussian distribution)
+
+Conditional density: mopB | dnaK + lacZ
+Coefficients:
+(Intercept)         dnaK         lacZ  
+ 0.03568437   0.89579537  -0.05902883  
+Standard deviation of the residuals: 0.560237 
+
+  Parameters of node nmpC (Gaussian distribution)
+
+Conditional density: nmpC | pspA
+Coefficients:
+(Intercept)         pspA  
+  0.1688145   -0.7690484  
+Standard deviation of the residuals: 0.568521 
+
+  Parameters of node nuoM (Gaussian distribution)
+
+Conditional density: nuoM | lacY
+Coefficients:
+(Intercept)         lacY  
+ -2.0175694    0.4082615  
+Standard deviation of the residuals: 0.9018575 
+
+  Parameters of node pspA (Gaussian distribution)
+
+Conditional density: pspA | cspG + pspB + yedE
+Coefficients:
+(Intercept)         cspG         pspB         yedE  
+ -0.1900509    0.1079258    0.1399003   -0.7455691  
+Standard deviation of the residuals: 0.4151538 
+
+  Parameters of node pspB (Gaussian distribution)
+
+Conditional density: pspB | cspG + yedE
+Coefficients:
+(Intercept)         cspG         yedE  
+ -0.2490257    0.2758657   -0.9886109  
+Standard deviation of the residuals: 0.5201657 
+
+  Parameters of node sucA (Gaussian distribution)
+
+Conditional density: sucA | eutG
+Coefficients:
+(Intercept)         eutG  
+  0.0242884   -1.0894048  
+Standard deviation of the residuals: 0.811525 
+
+  Parameters of node sucD (Gaussian distribution)
+
+Conditional density: sucD | sucA
+Coefficients:
+(Intercept)         sucA  
+ -0.5907153    0.6829936  
+Standard deviation of the residuals: 0.6600159 
+
+  Parameters of node tnaA (Gaussian distribution)
+
+Conditional density: tnaA | b1191 + fixC + sucA
+Coefficients:
+(Intercept)        b1191         fixC         sucA  
+ -0.3861436   -0.5926134   -0.2441913    0.1105793  
+Standard deviation of the residuals: 0.3102185 
+
+  Parameters of node yaeM (Gaussian distribution)
+
+Conditional density: yaeM | cspG + lacA + lacZ
+Coefficients:
+(Intercept)         cspG         lacA         lacZ  
+  0.3665120    1.4721822   -0.7172945    0.7203860  
+Standard deviation of the residuals: 0.8100231 
+
+  Parameters of node yceP (Gaussian distribution)
+
+Conditional density: yceP | eutG + fixC
+Coefficients:
+(Intercept)         eutG         fixC  
+ -0.1280449    1.1408675   -0.3267433  
+Standard deviation of the residuals: 0.4090936 
+
+  Parameters of node ycgX (Gaussian distribution)
+
+Conditional density: ycgX | fixC + yheI
+Coefficients:
+(Intercept)         fixC         yheI  
+  0.1583832   -0.2716239    1.2448325  
+Standard deviation of the residuals: 0.5054622 
+
+  Parameters of node yecO (Gaussian distribution)
+
+Conditional density: yecO | cspG
+Coefficients:
+(Intercept)         cspG  
+  0.2719168    0.7948663  
+Standard deviation of the residuals: 0.474221 
+
+  Parameters of node yedE (Gaussian distribution)
+
+Conditional density: yedE | cspG
+Coefficients:
+(Intercept)         cspG  
+ -0.1606039   -0.6420267  
+Standard deviation of the residuals: 0.526442 
+
+  Parameters of node yfaD (Gaussian distribution)
+
+Conditional density: yfaD | eutG + sucA + yceP
+Coefficients:
+(Intercept)         eutG         sucA         yceP  
+  0.1628253    0.2875757   -0.2437410    0.3177723  
+Standard deviation of the residuals: 0.4324096 
+
+  Parameters of node yfiA (Gaussian distribution)
+
+Conditional density: yfiA | cspA
+Coefficients:
+(Intercept)         cspA  
+ -1.1928196    0.8572262  
+Standard deviation of the residuals: 0.5617983 
+
+  Parameters of node ygbD (Gaussian distribution)
+
+Conditional density: ygbD | fixC
+Coefficients:
+(Intercept)         fixC  
+  1.3504359    0.6606881  
+Standard deviation of the residuals: 0.8602441 
+
+  Parameters of node ygcE (Gaussian distribution)
+
+Conditional density: ygcE | b1191 + sucA
+Coefficients:
+(Intercept)        b1191         sucA  
+  0.5239508    1.8815081    0.6326535  
+Standard deviation of the residuals: 0.5856137 
+
+  Parameters of node yhdM (Gaussian distribution)
+
+Conditional density: yhdM | sucA
+Coefficients:
+(Intercept)         sucA  
+  0.2084980   -0.7770235  
+Standard deviation of the residuals: 0.7669168 
+
+  Parameters of node yheI (Gaussian distribution)
+
+Conditional density: yheI | atpD + yedE
+Coefficients:
+(Intercept)         atpD         yedE  
+ -0.2137443   -0.9633228    0.3381502  
+Standard deviation of the residuals: 0.3749968 
+
+  Parameters of node yjbO (Gaussian distribution)
+
+Conditional density: yjbO | fixC
+Coefficients:
+(Intercept)         fixC  
+ 1.59101726  -0.07064048  
+Standard deviation of the residuals: 1.360589 
+

@@ -6,7 +6,7 @@ library(dequer)
 library(hash)
 library(earth)
 
-print_score <- function(predictor_vars, score, score_file){
+print_score <- function(predictor_vars, score, score_file, model, metrics_file){
   tmp <- unique(unlist(strsplit(predictor_vars, "V")))
   parents = tmp[tmp!=""]
   i=as.integer(parents)
@@ -16,13 +16,17 @@ print_score <- function(predictor_vars, score, score_file){
   
   parent_str <- paste(sort(parents), collapse = " ")
   score_string <- paste(score, parent_str)
+  metrics_string <- paste(c(length(e3$coefficients), model$gcv, model$rss, model$grsq, model$rsq), collapse=",")
   write(score_string, score_file, append = TRUE)
-  
+  write(metrics_string, metrics_file, append = TRUE)
 }
 
-print_score_null <- function(score, score_file){
+print_score_null <- function(score, score_file, metrics_file){
   score_string <- paste(score, "0")
+  metrics_string <- paste(c(0,0,0,0,0), collapse = ",")
   write(score_string, score_file, append = TRUE) 
+  write(metrics_string, metrics_file, append = TRUE) 
+  
 }
 
 score_null_hypothesis <- function(response_var_id, data, score_file){
@@ -47,15 +51,18 @@ create_key <- function(parentSet) {
 
 # 1) Load the CSV with the observations
 print("Starting!")
-c <- read.csv(args[1], header=TRUE)
+c <- read.csv(args[1], header=FALSE)
 response_var_id = as.numeric(args[3])+1
 response_var_name = names(c)[response_var_id]
 solution_file = paste(c(args[2], "_"), collapse = "")
-
+print(response_var_id)
 output_file = paste(c(solution_file, toString(response_var_id-1)), collapse = "")
+mets_file = paste(c(solution_file, toString(response_var_id-1), ".mets"), collapse = "")
 
 direction = as.numeric(args[4])
 feats <- read.csv(args[5], header=FALSE)
+feat_file_offset = as.numeric(args[6])
+
 names(feats) = c()
 domains = list()
 if(nrow(unique(c[response_var_id])) == 1) 
@@ -97,20 +104,24 @@ for (i in seq(1,ncol(c)))
 print("processed")
 names(domains) = names(c)
 
-#for ( i in seq(1,ncol(c))){
 {
   max=0
   ctr=0
   f_base <- as.formula(paste(c(response_var_name, " ~."), collapse = " "))
   # print(f_base)
   # 2) Create MARS models with feature terms
-  s = unlist(feats[response_var_id, 1:5])
+  #first column of feature file indicates response var id
+  print(unlist(feats[1]))
+  feat_file_index = which (unlist(feats[1]) == (response_var_id - feat_file_offset))
+  print(feat_file_index)
+  print(feats[feat_file_index,])
+  s = unlist(feats[feat_file_index, 2:6])
   s2 = s
   for (i in seq(1,length(s))){
-    s2[i] = names(c[s[i]])
+    s2[i] = names(c[s[i]+feat_file_offset])
   }
   print(s2)
-  quit()
+  
   allParentCandidates <- s2
   #print(s4)
   # 4) Create a queue of potential parent sets and initialize it with the set from 3)
@@ -142,7 +153,7 @@ names(domains) = names(c)
       ctr = ctr + 1
       ###print("Done calling FDA")
       if (ctr == 200)
-        print_score_null(max, output_file)
+        print_score_null(max, output_file, mets_file)
       if(length(e3$coefficients) > 1) {
         print(f)
         #print(e3$gcv)
@@ -161,7 +172,7 @@ names(domains) = names(c)
           sKey <- create_key(s)
           if (!has.key(sKey, finished)) {
             finished[sKey] = 1
-            print_score(s5, e3$gcv, output_file)
+            print_score(s5, e3$gcv, output_file, e3, mets_file)
           }
         }
       }
@@ -188,7 +199,7 @@ names(domains) = names(c)
       }
     }
   }
-  print_score_null(max, output_file)
+  print_score_null(max, output_file, mets_file)
 }
 
 

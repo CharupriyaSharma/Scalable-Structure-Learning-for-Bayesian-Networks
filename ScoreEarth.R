@@ -6,7 +6,7 @@ library(dequer)
 library(hash)
 library(earth)
 
-print_score <- function(predictor_vars, score, score_file){
+print_score <- function(predictor_vars, score, score_file, model, metrics_file){
   tmp <- unique(unlist(strsplit(predictor_vars, "V")))
   parents = tmp[tmp!=""]
   i=as.integer(parents)
@@ -16,13 +16,18 @@ print_score <- function(predictor_vars, score, score_file){
   
   parent_str <- paste(sort(parents), collapse = " ")
   score_string <- paste(score, parent_str)
+  metrics_string <- paste(c(length(e3$coefficients), model$gcv, model$rss, model$grsq, model$rsq), collapse=",")
   write(score_string, score_file, append = TRUE)
-
+  write(metrics_string, metrics_file, append = TRUE)
 }
 
-print_score_null <- function(score, score_file){
+
+print_score_null <- function(score, score_file, metrics_file){
   score_string <- paste(score, "0")
+  metrics_string <- paste(c(0,0,0,0,0), collapse = ",")
   write(score_string, score_file, append = TRUE) 
+  write(metrics_string, metrics_file, append = TRUE) 
+  
 }
 
 score_null_hypothesis <- function(response_var_id, data, score_file){
@@ -47,12 +52,13 @@ create_key <- function(parentSet) {
 
 # 1) Load the CSV with the observations
 print("Starting!")
-c <- read.csv(args[1], header=FALSE)
+c <- read.csv(args[1],  sep="\t", nrows=5000, header=FALSE, skip=1)
 response_var_id = as.numeric(args[3])+1
 response_var_name = names(c)[response_var_id]
 solution_file = paste(c(args[2], "_"), collapse = "")
 
 output_file = paste(c(solution_file, toString(response_var_id-1)), collapse = "")
+mets_file = paste(c(solution_file, toString(response_var_id-1), ".mets"), collapse = "")
 
 direction = as.numeric(args[4])
 
@@ -85,16 +91,16 @@ for (i in names(c))
   }
   
 }
-for (i in seq(1,ncol(c)))
-{
-  c[,i] = sub("^", "s_", c[,i] )
-  domains[[i]] = unique(c[,i])
-  c[,i] = factor(c[,i])
-  #print(c[,i])
-}
+# for (i in seq(1,ncol(c)))
+# {
+#   c[,i] = sub("^", "s_", c[,i] )
+#   domains[[i]] = unique(c[,i])
+#   c[,i] = factor(c[,i])
+#   print(c[,i])
+# }
 
 print("processed")
-names(domains) = names(c)
+#names(domains) = names(c)
 
 #for ( i in seq(1,ncol(c))){
 {
@@ -118,7 +124,7 @@ names(domains) = names(c)
   # s4 is the set with all candidate parents
   s5 <- grep("V", s4, value=TRUE)
   print(s5)
-  quit()
+  #quit()
   allParentCandidates <- s5
   #print(s4)
   # 4) Create a queue of potential parent sets and initialize it with the set from 3)
@@ -149,8 +155,11 @@ names(domains) = names(c)
       #print(coef(fda3))
       ctr = ctr + 1
       ###print("Done calling FDA")
-      if (ctr == 200)
-        print_score_null(max, output_file)
+      if (ctr == 300)
+      {
+        print_score_null(max, output_file, mets_file)
+        quit()
+      }
       if(length(e3$coefficients) > 1) {
         print(f)
         #print(e3$gcv)
@@ -164,12 +173,12 @@ names(domains) = names(c)
         s4 <- unique(unlist(strsplit(s3, "s")))
         # s4 is the set with all candidate parents
         s5 <- grep("V", s4, value=TRUE)
-        #print(s5)
+        print(s5)
         if (length(s5) > 0) {
           sKey <- create_key(s)
           if (!has.key(sKey, finished)) {
             finished[sKey] = 1
-            print_score(s5, e3$gcv, output_file)
+            print_score(s5, e3$gcv, output_file, e3, mets_file)
           }
         }
       }
@@ -196,7 +205,7 @@ names(domains) = names(c)
       }
     }
   }
-  print_score_null(max, output_file)
+  print_score_null(max, output_file, mets_file)
 }
 
 

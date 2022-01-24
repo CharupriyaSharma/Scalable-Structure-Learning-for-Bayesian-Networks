@@ -168,7 +168,8 @@ create_key <- function(parentSet) {
 
 # 1) Load the CSV with the observations
 print("Starting!")
-c <- read.csv(args[1], header=FALSE)
+print(args)
+c <- read.csv(args[1],  sep="\t", nrows=10, header=FALSE, skip=1)
 response_var_id = as.numeric(args[3])+1
 response_var_name = names(c)[response_var_id]
 solution_file = paste(c(args[2], "_"), collapse = "")
@@ -177,7 +178,7 @@ output_file = paste(c(solution_file, toString(response_var_id-1)), collapse = ""
 output_file2 = paste(c(output_file, "_metrics"), collapse = "")
 
 direction = as.numeric(args[4])
-
+print(response_var_id)
 domains = list()
 if(nrow(unique(c[response_var_id])) == 1) 
 {
@@ -198,7 +199,7 @@ for (i in seq(1,ncol(c)))
   domains[[i]] = unique(c[,i])
 
 names(domains) = names(c)
-write.csv(c, outfile,row.names = FALSE, col.names = TRUE)
+#write.csv(c, outfile,row.names = FALSE, col.names = TRUE)
 
 #for ( i in seq(1,ncol(c))){
 {

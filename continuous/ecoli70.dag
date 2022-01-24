@@ -1,0 +1,46 @@
+aceB : icdA
+asnA : ygcE
+atpD : sucA, ygcE
+atpG : sucA
+b1191 : 
+b1583 : lacA, lacZ, yceP
+b1963 : yheI
+cchB : fixC
+cspA : cspG
+cspG : 
+dnaG : ycgX, yheI
+dnaJ : sucA
+dnaK : yheI
+eutG : 
+fixC : b1191
+flgD : sucA
+folK : yheI
+ftsJ : mopB
+gltA : sucA
+hupB : cspA, yfiA
+ibpB : eutG, yceP
+icdA : asnA, ygcE
+lacA : asnA, cspG
+lacY : asnA, cspG, eutG, lacA
+lacZ : asnA, lacA, lacY
+lpdA : yedE
+mopB : dnaK, lacZ
+nmpC : pspA
+nuoM : lacY
+pspA : cspG, pspB, yedE
+pspB : cspG, yedE
+sucA : eutG
+sucD : sucA
+tnaA : b1191, fixC, sucA
+yaeM : cspG, lacA, lacZ
+yceP : eutG, fixC
+ycgX : fixC, yheI
+yecO : cspG
+yedE : cspG
+yfaD : eutG, sucA, yceP
+yfiA : cspA
+ygbD : fixC
+ygcE : b1191, sucA
+yhdM : sucA
+yheI : atpD, yedE
+yjbO : fixC

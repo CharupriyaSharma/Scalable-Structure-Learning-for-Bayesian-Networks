@@ -4,7 +4,6 @@ import h2o
 from h2o.estimators.random_forest import H2ORandomForestEstimator
 h2o.init()
 
-k = int(sys.argv[2])
 
 for subdir, dirs, files in os.walk(sys.argv[1]):
     for file in files:
@@ -27,15 +26,14 @@ for subdir, dirs, files in os.walk(sys.argv[1]):
                 if len(data[i].table()[1]) == 1 :
                     data = data.drop(i, axis=1)
                     print(i)
-                ctr+=1
 
             n = data.shape[1]
             nfeatures = n 
             print(n)
             train, valid = data.split_frame(ratios = [.8], seed = 1234)
             #making variables categorical
-            for i in range(0,n):
-                data[i] = data[i].ascharacter()
+            #for i in range(0,n):
+            #    data[i] = data[i].ascharacter()
 
             
 
@@ -60,6 +58,8 @@ for subdir, dirs, files in os.walk(sys.argv[1]):
                 
                     clf.train(x = predictors, y = response, training_frame = train, validation_frame = valid)
                     features = clf.varimp(True)['variable'][0:nfeatures]
+                    features = list(features)
+                    features.insert(0, response)
                     scores =  clf.varimp(True)['percentage'][0:nfeatures]
                     features = [i.split(i[0])[1] for i in features]
                     features = [str(int(i)-1) for i in features]

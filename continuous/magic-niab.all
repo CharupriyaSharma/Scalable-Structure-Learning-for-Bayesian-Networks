@@ -1,0 +1,367 @@
+
+  Bayesian network parameters
+
+  Parameters of node YR.GLASS (Gaussian distribution)
+
+Conditional density: YR.GLASS | MIL + G418 + G311 + G1217 + G800 + G866 + G795 + G1750
+Coefficients:
+(Intercept)          MIL         G418         G311        G1217         G800  
+ 1.54844302   0.07176010   0.27004184   0.10415282   0.07919530   0.05753975  
+       G866         G795        G1750  
+ 0.04606503   0.04738050  -0.07482120  
+Standard deviation of the residuals: 0.3328568 
+
+  Parameters of node HT (Gaussian distribution)
+
+Conditional density: HT | G832 + G1896 + G2953 + G266 + G847 + G942 + G2835
+Coefficients:
+(Intercept)         G832        G1896        G2953         G266         G847  
+ 76.6512072   -0.5070748    1.7493374   -1.3487895   -0.7826928    0.5766648  
+       G942        G2835  
+ -0.6650742   -1.3969607  
+Standard deviation of the residuals: 3.313186 
+
+  Parameters of node YR.FIELD (Gaussian distribution)
+
+Conditional density: YR.FIELD | YR.GLASS + FT + G418 + G200 + G257 + G2208 + G1373 + G599 + G261
+Coefficients:
+(Intercept)     YR.GLASS           FT         G418         G200         G257  
+ 2.32295708   0.27133545  -0.02430377   0.08896556  -0.16550983  -0.06991685  
+      G2208        G1373         G599         G261  
+ 0.20996037  -0.06294320   0.08358132   0.08035432  
+Standard deviation of the residuals: 0.4022333 
+
+  Parameters of node MIL (Gaussian distribution)
+
+Conditional density: MIL | G1217 + G2208 + G1945 + G1338 + G524
+Coefficients:
+(Intercept)        G1217        G2208        G1945        G1338         G524  
+  2.0462650    0.1350137    0.4237586   -0.1105228    0.1078455    0.1127080  
+Standard deviation of the residuals: 0.6878233 
+
+  Parameters of node FT (Gaussian distribution)
+
+Conditional density: FT | G266 + G1276 + G1263 + G2318 + G1294 + G1800 + G775
+Coefficients:
+(Intercept)         G266        G1276        G1263        G2318        G1294  
+ 32.0404937   -1.1312907   -0.4554107    0.8155096   -0.4322564   -0.4364591  
+      G1800         G775  
+  1.6105807   -0.8136710  
+Standard deviation of the residuals: 2.822864 
+
+  Parameters of node G418 (Gaussian distribution)
+
+Conditional density: G418
+Coefficients:
+(Intercept)  
+   1.463333  
+Standard deviation of the residuals: 0.8659708 
+
+  Parameters of node G311 (Gaussian distribution)
+
+Conditional density: G311 | G1853
+Coefficients:
+(Intercept)        G1853  
+  1.2533333    0.1542857  
+Standard deviation of the residuals: 0.831472 
+
+  Parameters of node G1217 (Gaussian distribution)
+
+Conditional density: G1217
+Coefficients:
+(Intercept)  
+       1.43  
+Standard deviation of the residuals: 0.8905552 
+
+  Parameters of node G800 (Gaussian distribution)
+
+Conditional density: G800
+Coefficients:
+(Intercept)  
+      0.745  
+Standard deviation of the residuals: 0.9477017 
+
+  Parameters of node G866 (Gaussian distribution)
+
+Conditional density: G866
+Coefficients:
+(Intercept)  
+      1.245  
+Standard deviation of the residuals: 0.9520955 
+
+  Parameters of node G795 (Gaussian distribution)
+
+Conditional density: G795
+Coefficients:
+(Intercept)  
+  0.7466667  
+Standard deviation of the residuals: 0.9401926 
+
+  Parameters of node G2570 (Gaussian distribution)
+
+Conditional density: G2570
+Coefficients:
+(Intercept)  
+   1.796667  
+Standard deviation of the residuals: 0.5937815 
+
+  Parameters of node G260 (Gaussian distribution)
+
+Conditional density: G260
+Coefficients:
+(Intercept)  
+       0.24  
+Standard deviation of the residuals: 0.6504654 
+
+  Parameters of node G2920 (Gaussian distribution)
+
+Conditional density: G2920
+Coefficients:
+(Intercept)  
+   1.533333  
+Standard deviation of the residuals: 0.8366933 
+
+  Parameters of node G832 (Gaussian distribution)
+
+Conditional density: G832
+Coefficients:
+(Intercept)  
+   1.438333  
+Standard deviation of the residuals: 0.8817557 
+
+  Parameters of node G1896 (Gaussian distribution)
+
+Conditional density: G1896 | G2953
+Coefficients:
+(Intercept)        G2953  
+  0.6613890    0.1843797  
+Standard deviation of the residuals: 0.9331864 
+
+  Parameters of node G2953 (Gaussian distribution)
+
+Conditional density: G2953
+Coefficients:
+(Intercept)  
+      0.345  
+Standard deviation of the residuals: 0.730432 
+
+  Parameters of node G266 (Gaussian distribution)
+
+Conditional density: G266 | G1338 + G1276
+Coefficients:
+(Intercept)        G1338        G1276  
+ 0.02086628   0.08209191   0.15271664  
+Standard deviation of the residuals: 0.6631006 
+
+  Parameters of node G847 (Gaussian distribution)
+
+Conditional density: G847
+Coefficients:
+(Intercept)  
+      1.345  
+Standard deviation of the residuals: 0.9277623 
+
+  Parameters of node G942 (Gaussian distribution)
+
+Conditional density: G942
+Coefficients:
+(Intercept)  
+  0.2766667  
+Standard deviation of the residuals: 0.6788891 
+
+  Parameters of node G200 (Gaussian distribution)
+
+Conditional density: G200
+Coefficients:
+(Intercept)  
+  0.2216667  
+Standard deviation of the residuals: 0.6135889 
+
+  Parameters of node G257 (Gaussian distribution)
+
+Conditional density: G257 | G1217
+Coefficients:
+(Intercept)        G1217  
+  1.7468741   -0.4593525  
+Standard deviation of the residuals: 0.8836116 
+
+  Parameters of node G2208 (Gaussian distribution)
+
+Conditional density: G2208 | G257
+Coefficients:
+(Intercept)         G257  
+ 0.08267212  -0.04067779  
+Standard deviation of the residuals: 0.2559653 
+
+  Parameters of node G1373 (Gaussian distribution)
+
+Conditional density: G1373 | G1750
+Coefficients:
+(Intercept)        G1750  
+  1.3143939    0.1969697  
+Standard deviation of the residuals: 0.8447018 
+
+  Parameters of node G599 (Gaussian distribution)
+
+Conditional density: G599
+Coefficients:
+(Intercept)  
+   1.728333  
+Standard deviation of the residuals: 0.6672876 
+
+  Parameters of node G261 (Gaussian distribution)
+
+Conditional density: G261
+Coefficients:
+(Intercept)  
+       1.56  
+Standard deviation of the residuals: 0.8149685 
+
+  Parameters of node G383 (Gaussian distribution)
+
+Conditional density: G383 | G800
+Coefficients:
+(Intercept)         G800  
+  1.9080303   -0.1629042  
+Standard deviation of the residuals: 0.5875185 
+
+  Parameters of node G1853 (Gaussian distribution)
+
+Conditional density: G1853
+Coefficients:
+(Intercept)  
+       1.75  
+Standard deviation of the residuals: 0.6619897 
+
+  Parameters of node G1033 (Gaussian distribution)
+
+Conditional density: G1033
+Coefficients:
+(Intercept)  
+  0.3016667  
+Standard deviation of the residuals: 0.7058051 
+
+  Parameters of node G1945 (Gaussian distribution)
+
+Conditional density: G1945
+Coefficients:
+(Intercept)  
+  0.9466667  
+Standard deviation of the residuals: 0.9876477 
+
+  Parameters of node G1338 (Gaussian distribution)
+
+Conditional density: G1338
+Coefficients:
+(Intercept)  
+  0.8033333  
+Standard deviation of the residuals: 0.9744596 
+
+  Parameters of node G1276 (Gaussian distribution)
+
+Conditional density: G1276 | G599
+Coefficients:
+(Intercept)         G599  
+  0.6351769    0.3644106  
+Standard deviation of the residuals: 0.9175419 
+
+  Parameters of node G1263 (Gaussian distribution)
+
+Conditional density: G1263
+Coefficients:
+(Intercept)  
+      1.655  
+Standard deviation of the residuals: 0.7462595 
+
+  Parameters of node G1789 (Gaussian distribution)
+
+Conditional density: G1789 | G266
+Coefficients:
+(Intercept)         G266  
+  0.2126709    0.2523659  
+Standard deviation of the residuals: 0.6720243 
+
+  Parameters of node G2318 (Gaussian distribution)
+
+Conditional density: G2318
+Coefficients:
+(Intercept)  
+   1.308333  
+Standard deviation of the residuals: 0.9423786 
+
+  Parameters of node G1294 (Gaussian distribution)
+
+Conditional density: G1294 | G418
+Coefficients:
+(Intercept)         G418  
+  0.3189198    0.3321732  
+Standard deviation of the residuals: 0.9167901 
+
+  Parameters of node G1800 (Gaussian distribution)
+
+Conditional density: G1800 | G1217 + G2953 + G257 + G2835
+Coefficients:
+(Intercept)        G1217        G2953         G257        G2835  
+-0.15565723   0.07603258   0.04372214   0.07399118   0.12429717  
+Standard deviation of the residuals: 0.2256248 
+
+  Parameters of node YLD (Gaussian distribution)
+
+Conditional density: YLD | YR.GLASS + HT + FT + G2570 + G260 + G2920 + G832
+Coefficients:
+(Intercept)     YR.GLASS           HT           FT        G2570         G260  
+ 6.53419402   0.14083041   0.02119623  -0.04877691   0.11980551   0.10855585  
+      G2920         G832  
+ 0.06713050   0.08284356  
+Standard deviation of the residuals: 0.4393739 
+
+  Parameters of node FUS (Gaussian distribution)
+
+Conditional density: FUS | HT + G832 + G1896 + G383 + G1853 + G1033
+Coefficients:
+(Intercept)           HT         G832        G1896         G383        G1853  
+ 8.20617744  -0.05374466  -0.12718635  -0.14801346   0.25657769  -0.16262608  
+      G1033  
+ 0.16664650  
+Standard deviation of the residuals: 0.7755985 
+
+  Parameters of node G1750 (Gaussian distribution)
+
+Conditional density: G1750
+Coefficients:
+(Intercept)  
+       0.24  
+Standard deviation of the residuals: 0.6504654 
+
+  Parameters of node G524 (Gaussian distribution)
+
+Conditional density: G524
+Coefficients:
+(Intercept)  
+  0.4666667  
+Standard deviation of the residuals: 0.8306858 
+
+  Parameters of node G775 (Gaussian distribution)
+
+Conditional density: G775
+Coefficients:
+(Intercept)  
+       0.22  
+Standard deviation of the residuals: 0.6100987 
+
+  Parameters of node G2835 (Gaussian distribution)
+
+Conditional density: G2835 | G418
+Coefficients:
+(Intercept)         G418  
+ 0.01253358   0.04382671  
+Standard deviation of the residuals: 0.2700506 
+
+  Parameters of node G43 (Gaussian distribution)
+
+Conditional density: G43 | G311
+Coefficients:
+(Intercept)         G311  
+  0.5352496   -0.2550873  
+Standard deviation of the residuals: 0.4586322 
+
